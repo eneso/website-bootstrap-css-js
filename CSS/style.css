@@ -1,0 +1,60 @@
+/* Selector {
+
+} */
+
+*{
+    text-align: right; /* only home about login moves the right because of the specifity. Yes I want everythign right but as we go down, we go down in css, we say h2 and p are center */
+    /*cursor: none !important;*/
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+h2, p:hover {
+    color: 2A4D6E;
+    text-align : center;
+    border: 5px solid rgba(153, 166, 55, 0.5);
+    cursor: pointer
+    
+}
+
+p {
+    line-height: 50px;
+    color: red;
+    font-family: 'Ranga', cursive;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: green;
+}
+
+.webtext {
+    border: 5px dashed green;
+}
+
+.active {
+    color: white;
+
+}
+
+#div1 {
+    background: rgba(0,0,255,0.2);
+}
+
+#div2 {
+    background: rgba(255,0,0,0.2);
+}
+
+img {
+    float: left;
+}
+
+footer {
+    color: white;
+    clear: both;
+    text-align: center;
+}
